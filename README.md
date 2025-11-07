@@ -1,5 +1,5 @@
 # HexSoftwares_Linear_Regression_on_Housing_Prices 
-# Pakistan House Price Prediction  
+Pakistan House Price Prediction  
 **Multiple Linear Regression | R² 0.653 | MAE 970K **
 
 <img src="https://img.shields.io/badge/Python-3.12-blue?style=flat-square&logo=python" alt="Python"/> 
