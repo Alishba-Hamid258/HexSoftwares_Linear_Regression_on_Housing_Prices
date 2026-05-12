@@ -1,0 +1,54 @@
+[
+    {
+        "task": "\ud83d\udcc5 Review Today's Goals",
+        "done": false,
+        "priority": "High"
+    },
+    {
+        "task": "\ud83d\udca7 Drink 500ml Water",
+        "done": false,
+        "priority": "High"
+    },
+    {
+        "task": "Go for a walk",
+        "done": false,
+        "priority": "Medium",
+        "time": "45m"
+    },
+    {
+        "task": "\ud83d\udca7 Drink 500ml Water",
+        "done": false,
+        "priority": "High",
+        "time": "5m"
+    },
+    {
+        "task": "\ud83e\uddd8 5min Mindfulness",
+        "done": false,
+        "priority": "Medium",
+        "time": "5m"
+    },
+    {
+        "task": "\ud83d\udcc5 Review Today's Goals",
+        "done": false,
+        "priority": "High",
+        "time": "10m"
+    },
+    {
+        "task": "\ud83d\udca7 Drink 500ml Water",
+        "done": false,
+        "priority": "High",
+        "time": "5m"
+    },
+    {
+        "task": "\ud83e\uddd8 5min Mindfulness",
+        "done": false,
+        "priority": "Medium",
+        "time": "5m"
+    },
+    {
+        "task": "\ud83d\udcc5 Review Today's Goals",
+        "done": false,
+        "priority": "High",
+        "time": "10m"
+    }
+]
