@@ -1,100 +1,80 @@
-# 🤖 HabitBot v5.0: The AI Mastery Workstation
+# 🤖 HabitBot v5.0: Your AI Mastery Workstation
 
-**HabitBot** is a high-performance, multi-user productivity platform designed to turn your long-term goals into daily discipline. Powered by **Groq + Llama 3.2**, it combines advanced AI coaching with industrial-grade habit tracking.
+**HabitBot** is a high-performance, multi-user productivity platform that combines **Behavioral Science** with **Multimodal AI**. It doesn't just track your habits—it coaches you through them using Vision, Data Analytics, and deep contextual memory.
+
+> **Live Demo**: [https://habitbot.streamlit.app](https://habitbot.streamlit.app) *(Deploying soon!)*
 
 ---
 
-## 🚀 Key Features
+## 🌟 Key Features
 
 ### 🧠 Multimodal AI Coach
-- **Vision Support**: Upload photos of your workspace for real-time productivity audits.
-- **Document Analysis**: Upload PDFs/Docs for the AI to analyze your goals and schedules.
-- **Domain-Locked**: 100% focused on habits, discipline, and performance.
+- **Vision Support**: Upload photos of your desk or handwritten notes for instant AI analysis and task generation.
+- **Document Intelligence**: Upload PDFs of habit books or research for the coach to summarize and integrate into your routine.
+- **Domain-Locked**: Specialized strictly in productivity, routines, and habit-building science.
 
-### 📈 Advanced Analytics
-- **GitHub-Style Heatmap**: Visualize 365 days of consistency in a beautiful, interactive grid.
-- **AI Weekly Report**: Get a data-driven "Performance Audit" based on your actual logs.
-- **Mastery Scoring**: Real-time consistency scores and progression badges.
+### 📊 Advanced Analytics & Visualization
+- **Consistency Heatmap**: A GitHub-style 365-day grid that visualizes your daily intensity. Never break the chain!
+- **AI Weekly Mastery Report**: Get a personalized, data-driven audit of your week's wins and points of friction.
+- **Life Audit (Excel Export)**: Download your entire journey (Habits, Focus Sessions, Tasks, Reflections) in a professionally formatted workbook.
 
-### 🛡️ Enterprise Security
-- **Multi-User Isolation**: Secure Login/Signup system with `bcrypt` password hashing.
-- **Persistent Sessions**: Cookie-based "Remember Me" logic so you stay logged in.
-- **Private Database**: Every user’s habits, tasks, and reflections are strictly isolated.
+### ⚡ Mastery Toolset
+- **Adaptive Pomodoro Engine**: Customizable focus/break timers with OS-level notifications and audio chimes.
+- **The Daily Matrix**: A high-speed interface for logging habits and managing deep work sessions.
+- **Session Archive**: Start new chats anytime; your old conversations are automatically preserved in a searchable archive.
 
-### 📱 Mobile PWA
-- **Installable**: Add HabitBot to your iPhone/Android home screen for a native app experience.
-- **Thumb-Friendly**: Optimized UI for tapping and logging on the go.
-- **Standalone Mode**: Hides browser UI for full-screen focus.
+### 📱 Mobile-First PWA
+- **App-Like Experience**: Optimized for mobile with thumb-friendly controls and standalone mode (no browser bars).
+- **Persistent Sessions**: Log in once and stay logged in for 30 days across all your devices.
 
-### ⚙️ Automation & Data
-- **AI Task Architect**: Generate complete to-do lists based on your goals.
-- **Pomodoro Engine**: Integrated focus timer with OS-level notifications and audio alerts.
-- **Life Audit (Export)**: Download your entire journey into a multi-sheet Excel file.
+### 🔐 Security & Privacy
+- **Industrial-Grade Auth**: Secure login/signup using `bcrypt` password hashing.
+- **Data Isolation**: Multi-user database architecture ensuring your habits and logs are strictly private.
 
 ---
 
 ## 🛠 Tech Stack
 
-- **Frontend**: Streamlit (Premium Custom CSS)
-- **AI Models**: Groq Llama 3.2 (Vision/Text)
-- **Backend**: Python 3.11
-- **Database**: SQLite (Relational Schema)
-- **Visualization**: Plotly Express
-- **Security**: Bcrypt + stx-CookieManager
+| Component | Technology |
+|---------|------------|
+| **Frontend** | Streamlit + Custom Glassmorphism CSS |
+| **Backend** | Python 3.11 |
+| **Intelligence** | Groq (Llama 3.2 Vision & 3.1 70B) |
+| **Database** | SQLite (Multi-user optimized) |
+| **Visualization** | Plotly Express |
+| **Auth** | Bcrypt + Browser Cookies (stx) |
 
 ---
 
-## 📂 Project Structure
+## 🚀 Getting Started
 
+### 1. Clone & Setup
 ```bash
-domain-chatbot/
-├── app.py              # Main PWA Application & UI
-├── auth.py             # Security & Encrypted Authentication
-├── db.py               # Database Initialization & Schema
-├── utils.py            # Analytics, Exports & AI Logic
-├── api.py              # Multimodal Groq LLM Interface
-├── config.py           # Global System Prompts
-├── requirements.txt    # Production Dependencies
-└── runtime.txt         # Python 3.11 Specification
+git clone https://github.com/Alishba-Hamid258/Habitbot.git
+cd Habitbot
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+### 2. Environment Configuration
+Create a `.env` file:
+```env
+GROQ_API_KEY=your_key_here
+```
+
+### 3. Launch
+```bash
+streamlit run app.py
 ```
 
 ---
 
-## 🚀 Quick Start (Local)
-
-1. **Clone & Enter**
-   ```bash
-   git clone <your-repo-url>
-   cd domain-chatbot
-   ```
-
-2. **Environment Setup**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # venv\Scripts\activate on Windows
-   pip install -r requirements.txt
-   ```
-
-3. **Configure API**
-   Create a `.env` file:
-   ```env
-   GROQ_API_KEY=your_groq_key
-   ```
-
-4. **Launch**
-   ```bash
-   streamlit run app.py
-   ```
+## 👨‍💻 Author
+**Alishba Hamid**
+[GitHub](https://github.com/Alishba-Hamid258) | [LinkedIn](https://linkedin.com/in/alishbahamid)
 
 ---
 
-## 🌍 Cloud Deployment (Streamlit Cloud)
-
-1. Connect your GitHub Repo to **Streamlit Community Cloud**.
-2. Go to **Advanced Settings -> Secrets**.
-3. Paste your keys: `GROQ_API_KEY = "gsk_..."`.
-4. Hit **Deploy** and start your journey to mastery!
-
----
-
-**Developed for high-agency individuals who value discipline and data.** 🚀🦾✨
+## 📄 License
+MIT License - See [LICENSE](LICENSE) for details.
